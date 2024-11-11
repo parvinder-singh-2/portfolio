@@ -14,10 +14,10 @@ const Navbar = () => {
             <img className='mx-2 w-20' src={logo} alt='' />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin />
-            <FaGithub />
-            <FaSquareXTwitter />
-            <FaInstagram />
+            <a href= 'https://www.linkedin.com/in/itzparvinder/' ><FaLinkedin /></a>
+            <a href= 'https://github.com/parvinder-singh-2' ><FaGithub /></a>
+            <a href= 'https://x.com/itzParvinder_' ><FaSquareXTwitter /></a>
+            <a href= 'https://www.instagram.com/parvinder_singh_2/' ><FaInstagram /></a>
         </div>
     </nav>
   )

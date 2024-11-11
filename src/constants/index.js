@@ -3,9 +3,14 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Self-taught Front-End Developer with a passion for technology and creativity. As a fresher in IT, I'm constantly building projects to expand my skills and deepen my understanding of web development. Eager to learn and grow, I strive to bring fresh ideas and practical solutions to every project. Excited to connect, collaborate, and make an impact in the tech world!`
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT_1 = `Hi, I'm a self-taught Front-End Developer and enthusiastic IT fresher with a strong drive to learn and create. My journey began with a fascination for how websites and applications work, which led me to start experimenting with HTML, CSS, and JavaScript. As my skills grew, I dove into React and Next.js, discovering the power of component-based design and server-side rendering. Building with these frameworks has deepened my understanding of creating dynamic, high-performance applications.`
+
+export const ABOUT_TEXT_2 = `Working on independent projects has been both challenging and rewarding. Each project has brought new insights, from crafting responsive user interfaces to optimizing for performance with React and Next.js. This approach has allowed me to gain practical experience and sharpen my problem-solving skills. I enjoy exploring new technologies, frameworks, and trends in web development to keep my work fresh and innovative.`;
+
+export const ABOUT_TEXT_3 = `Looking ahead, I’m excited to collaborate on larger projects, connect with experienced professionals, and continue growing in the tech field. With a strong foundation in React and Next.js and a passion for front-end development, I’m eager to bring creativity and adaptability to new opportunities and make a positive impact through technology.`
+
 
 export const EXPERIENCES = [
   {
@@ -70,7 +75,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Veer Savarkar Nagar, Indore, India, 452014 ",
+  phoneNo: "+91 93011 82667 ",
+  email: "mr.parvindersinghgandhi@gmail.com",
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutImg from '../assets/about-us.jpg';
-import { ABOUT_TEXT } from '../constants';
+import { ABOUT_TEXT_1, ABOUT_TEXT_2, ABOUT_TEXT_3 } from '../constants';
 import { motion } from "framer-motion"
 
 
@@ -25,8 +25,10 @@ const About = () => {
             initial = {{opacity:0, x: 100 }}
             transition={{duration : 0.5}}
             className="w-full lg:w-1/2">
-                <div className="flex justify-center lg:justify-start">
-                    <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
+                <div className="flex justify-center lg:justify-start flex-col">
+                    <p className='-mb-7 max-w-xl py-6'>{ABOUT_TEXT_1}</p>
+                    <p className='-mb-7 max-w-xl py-6'>{ABOUT_TEXT_2}</p>
+                    <p className='-mb-1 max-w-xl py-6'>{ABOUT_TEXT_3}</p>
                 </div>
             </motion.div>
         </div>
