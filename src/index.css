@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'Arsenica';
-  src: url('./assets/ArsenicaTrial-Medium.woff2') format('woff2'),
-       url('./assets/ArsenicaTrial-Medium.woff') format('woff');
+  src: url('../public/ArsenicaTrial-Medium.woff2') format('woff2'),
+       url('../public/ArsenicaTrial-Medium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
