@@ -1,4 +1,4 @@
-import skillsImg from "../assets/skillsImg.jpg";
+import skillsImg from "../../public/skillsImg.jpg";
 
 const Skills = () => {
   const skillSets = [

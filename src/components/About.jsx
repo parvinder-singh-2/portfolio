@@ -1,5 +1,5 @@
-import about1 from '../assets/about1.jpg'
-import about2 from '../assets/about2.jpg'
+import about1 from '../../public/about1.jpg'
+import about2 from '../../public/about2.jpg'
 
 const About = () => {
   return (
