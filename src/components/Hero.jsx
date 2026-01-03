@@ -1,4 +1,4 @@
-import HeroImg from '../assets/hero-img.jpg'
+import heroImg from '../assets/hero-img.jpg'
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
       {/* 2. Centered Image Card */}
       <div className="relative z-10 w-[30%] overflow-hidden rounded-2xl shadow-2xl rotate-[-4deg] bg-gray-300">
         <img 
-          src={HeroImg} 
+          src={heroImg} 
           alt="Profile"
           className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
         />

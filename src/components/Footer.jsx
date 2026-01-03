@@ -1,4 +1,4 @@
-import FooterImg from '../assets/footerImg.jpg';
+import footerImg from '../assets/footerImg.jpg';
 
 const Footer = () => {
 
@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="relative md:w-1/2 flex justify-center md:justify-end mt-20 md:mt-0">
         <div className="w-[50%] rounded-[30px] overflow-hidden shadow-2xl rotate-[5deg] bg-gray-300">
           <img 
-            src={FooterImg}
+            src={footerImg}
             alt="Tristan Clousso" 
             className="w-full h-full object-cover grayscale"
           />

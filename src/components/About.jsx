@@ -1,5 +1,5 @@
-import About1 from '../assets/about1.jpg'
-import About2 from '../assets/about2.jpg'
+import about1 from '../assets/about1.jpg'
+import about2 from '../assets/about2.jpg'
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
         <div className="flex justify-center md:justify-end">
           <div className="w-[80%] rounded-[40px] overflow-hidden shadow-xl rotate-12">
              <img 
-              src={About1}
+              src={about1}
               alt="About Me Main" 
               className="w-full h-full object-cover grayscale "
             />
@@ -36,7 +36,7 @@ const About = () => {
         <div className="flex justify-center md:justify-center md:pt-10">
           <div className="w-[30%] rounded-3xl overflow-hidden shadow-lg -rotate-[9deg]">
             <img 
-              src={About2}
+              src={about2}
               alt="About Me Small" 
               className="w-full h-full object-cover grayscale"
             />

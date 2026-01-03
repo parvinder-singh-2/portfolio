@@ -1,4 +1,4 @@
-import SkillsImg from "../assets/skillsImg.jpg";
+import skillsImg from "../assets/skillsImg.jpg";
 
 const Skills = () => {
   const skillSets = [
@@ -23,7 +23,7 @@ const Skills = () => {
           </h2>
           <div className="w-full md:w-[80%] aspect-video rounded-3xl overflow-hidden shadow-sm">
             <img 
-              src={SkillsImg}
+              src={skillsImg}
               alt="Workspace" 
               className="w-full h-full object-cover grayscale opacity-80"
             />
