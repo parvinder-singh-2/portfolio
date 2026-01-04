@@ -1,28 +1,49 @@
 import heroImg from '../../public/heroImg.jpg';
+import { motion } from 'motion/react';
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-screen bg-[#e8e2e2] flex flex-col items-center justify-center overflow-hidden">
+    <div className="relative w-full h-screen bg-[#e8e2e2] flex flex-col items-center justify-center overflow-hidden text-center">
       
-      {/* 1. Top Heading - Overlaps the image */}
-      <h1 className="absolute top-[20%] z-20 font-[Arsenica] text-[20%] md:text-9xl text-[#000000] tracking-tight pl-10">
-        Pa<span className='text-gray-300'>rvinder Si</span>ngh
-      </h1>
+      <motion.h1 
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        className="absolute top-[15%] z-20 font-[Arsenica] text-7xl text-[#000000] tracking-tight flex flex-col"
+      >
+        <span className="">Parvinder</span>
+        <span className="">Singh</span>
+      </motion.h1>
 
-      {/* 2. Centered Image Card */}
-      <div className="relative z-10 w-[30%] overflow-hidden rounded-2xl shadow-2xl rotate-[-4deg] bg-gray-300">
-        <img 
+      <motion.div 
+        initial={{ rotate:0 ,opacity: 0 }}
+        animate={{ y: 0, opacity: 1, rotate: -5 }}
+        transition={{ duration: 0.5, ease: "easeIn" }}
+        className="relative z-10 w-[80%] overflow-hidden rounded-2xl shadow-2xl bg-gray-300 mr-5">
+        <motion.img 
+          whileHover={{
+                scale: [null, 1, 1.05],
+                transition: {
+                    duration: 0.5,
+                    times: [0, 0.8, 1],
+                    ease: ["easeInOut", "easeOut"],
+                },
+            }}
           src={heroImg} 
           alt="Profile"
           className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
         />
-      </div>
+      </motion.div>
 
-      {/* 3. Bottom Content Container */}
-      <div className="absolute bottom-[12%] z-20 flex flex-col items-center">
-        <h2 className="text-6xl md:text-[10rem] font-ibm font-bold text-[#1a1a1a] leading-none tracking-wide">
+      <div className="absolute bottom-[18%] z-20 flex flex-col items-center">
+        <motion.h2 
+         initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        delay={1.5}
+        className="text-6xl md:text-[10rem] font-ibm font-bold text-[#1a1a1a] leading-none tracking-wide">
           PORTFOLIO
-        </h2>
+        </motion.h2>
         <p className="mt-4 text-lg md:text-xl font-ibm text-gray-600 tracking-widest uppercase">
           React and JavaScript Dev
         </p>
