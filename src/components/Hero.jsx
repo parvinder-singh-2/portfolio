@@ -9,7 +9,8 @@ const Hero = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.5, ease: "easeIn" }}
-        className="absolute top-[15%] z-20 font-[Arsenica] text-7xl text-[#000000] tracking-tight flex flex-col"
+        className="absolute top-[15%] z-20 font-[Arsenica] text-7xl text-[#000000] tracking-normal flex flex-col 
+                  sm:flex-row sm:top-[10%]"
       >
         <span className="">Parvinder</span>
         <span className="">Singh</span>

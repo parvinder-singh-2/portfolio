@@ -17,12 +17,12 @@ const About = () => {
           </h2>
         </motion.div>
 
-        <div className="flex justify-center md:justify-end">
+        <div className="flex justify-center">
           <motion.div 
         initial={{ rotate:0 ,opacity: 0 }}
         animate={{ y: 0, opacity: 1, rotate: 5 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
-          className="w-[80%] rounded-[40px] overflow-hidden shadow-xl rotate-12">
+          className="w-[80%] rounded-[40px] overflow-hidden shadow-xl rotate-12 sm:w-[60%] sm:mt-5">
              <motion.img 
              whileHover={{
                 scale: [null, 1, 1.05],
@@ -40,14 +40,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-12">
+      <div className=" mx-auto flex flex-col justify-center align-middle text-center w-full">
         
         <motion.div 
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeIn" }}
-        className="flex items-center md:pl-20 text-center">
-          <p className="text-lg md:text-2xl leading-relaxed max-w-md text-gray-800">
+        className="flex items-center text-center">
+          <p className="text-lg font-ibm sm:w-[70%] m-auto leading-relaxed  my-20 text-gray-800">
             I am a digital nomad currently based in India. I've been 
             working in graphic design for the past year. Currently working in BPO looking to switch into full time Devloupment roles.
           </p>

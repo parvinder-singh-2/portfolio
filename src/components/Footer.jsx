@@ -23,7 +23,7 @@ const Footer = () => {
 
 
       <div className="relative flex justify-center md:justify-end pt-15 mr-5">
-        <div className="w-[70%] rounded-[30px] overflow-hidden shadow-2xl rotate-[5deg] bg-gray-300">
+        <div className="w-[70%] sm:w-[50%] rounded-[30px] overflow-hidden shadow-2xl rotate-[5deg] bg-gray-300">
           <motion.img 
             src={footerImg}
              whileHover={{
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-16 h-14 text-white bg-black w-full text-center flex items-center justify-center">
+      <div className="mt-16 h-14 text-white bg-black w-full text-center flex items-center justify-center text-sm">
         <p className='font-ibm'>Copyright@2026 by Parvinder Singh</p>
       </div>
 

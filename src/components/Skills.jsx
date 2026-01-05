@@ -29,7 +29,7 @@ const Skills = () => {
           <h2 className="text-7xl font-ibm font-bold leading-[0.8] tracking-tighter relative z-10 mr-4">
             SKILLS & <br /> EXPERTISE
           </h2>
-          <div className="w-full my-10 flex justify-center items-center">
+          <div className="w-full mt-20 mb-10 flex justify-center items-center sm:w-[80%] mx-auto">
             <motion.img 
               src={skillsImg}
                whileHover={{

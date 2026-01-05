@@ -35,7 +35,7 @@ const MyArt = () => {
         {artPieces.map((art, index) => (
           <div key={index} className={`flex flex-col ${art.custom}`}>
             {/* Image Box */}
-            <div className="aspect-square flex align-middle justify-center  mb-6 mx-auto">
+            <div className="aspect-square flex align-middle justify-center mb-6 mx-auto sm:w-[60%]">
               <img 
                 src={art.img} 
                 alt={art.title} 
@@ -49,7 +49,7 @@ const MyArt = () => {
             </h3>
 
             {/* Description */}
-            <p className="text-sm md:text-sm font-ibm uppercase tracking-widest text-gray-700 leading-relaxed">
+            <p className="text-sm font-ibm uppercase tracking-widest text-gray-700 leading-relaxed sm:w-[80%] mx-auto">
               {art.desc}
             </p>
 

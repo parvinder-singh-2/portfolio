@@ -25,10 +25,10 @@ const Statement = () => {
         </div>
     </div>
 
-    <div className="flex flex-row-reverse mr-16">
+    <div className="flex flex-row-reverse">
 
 
-        <div className="w-[25%] overflow-hidden rounded-lg grayscale translate-y-4 hover:grayscale-50 transition-all duration-50">
+        <div className="w-[20%] overflow-hidden rounded-lg grayscale translate-y-4 hover:grayscale-50 transition-all duration-50 hidden md:block">
           <img 
             src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=500" 
             alt="Artistic process" 
