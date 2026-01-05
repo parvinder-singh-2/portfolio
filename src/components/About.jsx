@@ -22,7 +22,7 @@ const About = () => {
         initial={{ rotate:0 ,opacity: 0 }}
         animate={{ y: 0, opacity: 1, rotate: 5 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
-          className="w-[60%] rounded-[40px] overflow-hidden shadow-xl rotate-12 sm:mt-12 md:w-[50%] xl:w-[40%]">
+          className="w-[60%] rounded-[40px] overflow-hidden shadow-xl rotate-12 sm:mt-12 md:w-[50%] xl:w-[30%]">
              <motion.img 
              whileHover={{
                 scale: [null, 1, 1.05],
@@ -58,7 +58,7 @@ const About = () => {
           initial={{ rotate:0 ,opacity: 0 }}
           animate={{ y: 0, opacity: 1, rotate: -5 }}
           transition={{ duration: 0.5, ease: "easeIn" }}
-          className="w-[60%] rounded-3xl overflow-hidden shadow-lg -rotate-[9deg] mb-36 md:mt-24 sm:w-[40%] md:w-[50%] xl:w-[40%] xl:mt-0">
+          className="w-[60%] rounded-3xl overflow-hidden shadow-lg -rotate-[9deg] mb-36 md:mt-24 sm:w-[40%] md:w-[50%] xl:w-[30%] xl:mt-0">
             <motion.img 
             whileHover={{
                 scale: [null, 1, 1.05],
