@@ -11,25 +11,17 @@ const Skills = () => {
       category: "Illustration",
       items: ["Digital Illustration", "Street Art and Murals"],
     },
-    {
-      category: "Graphic Design",
-      items: ["Logo Design", "Brand Identity", "Poster Design", "Environmental Design"],
-    },
-    {
-      category: "Illustration",
-      items: ["Digital Illustration", "Street Art and Murals"],
-    },
   ];
 
   return (
-    <section className="relative w-full min-h-screen bg-[#e8e2e2] text-center text-[#1a1a1a]">
-      <div className="grid grid-cols-1 lg:grid-cols-2 ">
+    <section className="relative w-full max-h-screen bg-[#e8e2e2] text-center text-[#1a1a1a]">
+      <div className="flex flex-col">
         
-        <div className="relative">
-          <h2 className="text-7xl font-ibm font-bold leading-[0.8] tracking-tighter relative z-10 mr-4">
+          <h2 className="text-7xl font-ibm font-bold leading-[0.8] tracking-tighter relative z-10 ">
             SKILLS & <br /> EXPERTISE
           </h2>
-          <div className="w-full mt-20 mb-10 flex justify-center items-center sm:w-[80%] mx-auto">
+          <div className="flex flex-col md:flex-row mx-auto justify-center align-middle items-center">
+          <div className="w-full mt-20 mb-10 flex justify-center align-middle items-center sm:w-[60%] md:w-[50%] lg:w-[40%]">
             <motion.img 
               src={skillsImg}
                whileHover={{
@@ -44,7 +36,6 @@ const Skills = () => {
               className="w-[80%] rounded-3xl object-cover grayscale opacity-80 hover:grayscale-0 transition-all duration-500 "
             />
           </div>
-        </div>
 
         
     
@@ -70,7 +61,7 @@ const Skills = () => {
 
         </div>
       </div>
-
+      </div>
       </div>
     </section>
   );

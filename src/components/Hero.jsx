@@ -5,22 +5,22 @@ const Hero = () => {
   return (
     <div className="relative w-full min-h-screen bg-[#e8e2e2] flex flex-col items-center justify-center overflow-hidden text-center">
       
-      <motion.h1 
+      <motion.div 
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.5, ease: "easeIn" }}
-        className="absolute top-[15%] z-20 font-[Arsenica] text-7xl text-[#000000] tracking-normal flex flex-col 
-                  sm:flex-row sm:top-[10%]"
+        className="absolute top-[15%] z-20 font-[Arsenica] text-7xl text-[#000000] tracking-normal flex sm:flex-row
+                  flex-col sm:top-[20%] md:text-8xl md:top-[13%] lg:top-[15%]"
       >
-        <span className="">Parvinder</span>
-        <span className="">Singh</span>
-      </motion.h1>
+        <h2 className="">Parvinder</h2>
+        <h2 className="">Singh</h2>
+      </motion.div>
 
       <motion.div 
         initial={{ rotate:0 ,opacity: 0 }}
         animate={{ y: 0, opacity: 1, rotate: -5 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
-        className="relative z-10 w-[80%] overflow-hidden rounded-2xl shadow-2xl bg-gray-300 mr-5">
+        className="relative z-10 w-[80%] overflow-hidden rounded-2xl shadow-2xl bg-gray-300 mr-5 sm:w-[60%] lg:w-[40%]">
         <motion.img 
           whileHover={{
                 scale: [null, 1, 1.05],
@@ -42,7 +42,7 @@ const Hero = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.5, ease: "easeIn" }}
         delay={1.5}
-        className="text-6xl md:text-[10rem] font-ibm font-bold text-[#1a1a1a] leading-none tracking-wide">
+        className="text-6xl font-ibm font-bold text-[#1a1a1a] leading-none tracking-wide">
           PORTFOLIO
         </motion.h2>
         <p className="mt-4 text-lg md:text-xl font-ibm text-gray-600 tracking-widest uppercase">

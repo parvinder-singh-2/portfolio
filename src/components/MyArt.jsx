@@ -31,11 +31,11 @@ const MyArt = () => {
       </div>
 
       {/* Grid Container */}
-      <div className="flex flex-col justify-center align-middle text-center gap-12 ">
+      <div className="flex flex-col justify-center align-middle text-center gap-12 md:flex-row">
         {artPieces.map((art, index) => (
           <div key={index} className={`flex flex-col ${art.custom}`}>
             {/* Image Box */}
-            <div className="aspect-square flex align-middle justify-center mb-6 mx-auto sm:w-[60%]">
+            <div className="aspect-square flex align-middle justify-center mb-6 mx-auto sm:w-[60%] lg:w-[90%]">
               <img 
                 src={art.img} 
                 alt={art.title} 
@@ -49,7 +49,7 @@ const MyArt = () => {
             </h3>
 
             {/* Description */}
-            <p className="text-sm font-ibm uppercase tracking-widest text-gray-700 leading-relaxed sm:w-[80%] mx-auto">
+            <p className="text-sm font-ibm uppercase tracking-widest text-gray-700 leading-relaxed sm:w-[80%] md:w-[60%] lg:w-[90%] mx-auto">
               {art.desc}
             </p>
 
