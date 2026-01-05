@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 const Footer = () => {
 
   return (
-    <footer className="relative w-full bg-[#e8e2e2] text-[#1a1a1a] flex flex-col md:flex-row items-center justify-between text-center">
+    <footer className="relative min-h-screen w-full bg-[#e8e2e2] text-[#1a1a1a] flex flex-col md:flex-row items-center justify-between text-center">
       
       <div className="z-10 flex flex-col space-y-8 md:w-1/2">
         <div>

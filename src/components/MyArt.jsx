@@ -23,7 +23,7 @@ const MyArt = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-[#e8e2e2] px-10 py-24 text-[#1a1a1a] mr-5 text-center">
+    <div className="w-full min-h-screen bg-[#e8e2e2] text-[#1a1a1a] mr-5 text-center pb-24">
       <div className="text-center mb-20">
         <h2 className="text-7xl md:text-8xl font-ibm font-bold tracking-tighter uppercase">
           MY ART
@@ -31,15 +31,15 @@ const MyArt = () => {
       </div>
 
       {/* Grid Container */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mr-5">
+      <div className="flex flex-col justify-center align-middle text-center gap-12 ">
         {artPieces.map((art, index) => (
           <div key={index} className={`flex flex-col ${art.custom}`}>
             {/* Image Box */}
-            <div className="aspect-square w-full overflow-hidden bg-gray-300 mb-6">
+            <div className="aspect-square flex align-middle justify-center  mb-6 mx-auto">
               <img 
                 src={art.img} 
                 alt={art.title} 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer "
+                className="object-cover w-[80%] grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer rounded-4xl"
               />
             </div>
 
@@ -53,7 +53,9 @@ const MyArt = () => {
               {art.desc}
             </p>
 
-            <button className='mt-10 bg-gray-400 font-bold rounded-full tracking-tighter py-2'>Read More</button>
+            <button className='mt-10 bg-[#9ca3af] hover:bg-[#868e96] transition-colors font-medium rounded-full tracking-tighter py-2 px-8 self-center'>
+              Read More
+            </button>
           </div>
         ))}
       </div>

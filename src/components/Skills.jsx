@@ -23,7 +23,7 @@ const Skills = () => {
 
   return (
     <section className="relative w-full min-h-screen bg-[#e8e2e2] text-center text-[#1a1a1a]">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ">
         
         <div className="relative">
           <h2 className="text-7xl font-ibm font-bold leading-[0.8] tracking-tighter relative z-10 mr-4">

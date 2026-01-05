@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 
 const About = () => {
   return (
-    <div className="w-full max-h-screen bg-[#e8e2e2] px-10 py-20 font-sans text-[#1a1a1a] mr-5 ">
+    <div className="w-full min-h-screen bg-[#e8e2e2] font-sans text-[#1a1a1a] mr-5 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         
         <motion.div 
@@ -17,7 +17,7 @@ const About = () => {
           </h2>
         </motion.div>
 
-        <div className="flex justify-center md:justify-end mr-5">
+        <div className="flex justify-center md:justify-end">
           <motion.div 
         initial={{ rotate:0 ,opacity: 0 }}
         animate={{ y: 0, opacity: 1, rotate: 5 }}
@@ -53,7 +53,7 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="flex justify-center md:justify-center md:pt-10">
+        <div className="flex justify-center ">
           <motion.div
           initial={{ rotate:0 ,opacity: 0 }}
           animate={{ y: 0, opacity: 1, rotate: -5 }}

@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-screen bg-[#e8e2e2] flex flex-col items-center justify-center overflow-hidden text-center">
+    <div className="relative w-full min-h-screen bg-[#e8e2e2] flex flex-col items-center justify-center overflow-hidden text-center">
       
       <motion.h1 
         initial={{ y: -100, opacity: 0 }}
