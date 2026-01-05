@@ -12,7 +12,7 @@ const About = () => {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, ease: "easeIn" }}
         className="relative">
-          <h2 className="text-6xl font-ibm md:w-full md:pt-[20%] leading-none tracking-tighter text-center md:ml-24 lg:text-7xl">
+          <h2 className="text-6xl font-ibm md:w-full md:pt-[20%] leading-none tracking-tighter text-center md:ml-24 lg:ml-32 xl:ml-44 lg:text-7xl">
             A LITTLE <br /> ABOUT ME
           </h2>
         </motion.div>
@@ -22,7 +22,7 @@ const About = () => {
         initial={{ rotate:0 ,opacity: 0 }}
         animate={{ y: 0, opacity: 1, rotate: 5 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
-          className="w-[60%] rounded-[40px] overflow-hidden shadow-xl rotate-12 sm:mt-12 md:w-[50%]">
+          className="w-[60%] rounded-[40px] overflow-hidden shadow-xl rotate-12 sm:mt-12 md:w-[50%] xl:w-[40%]">
              <motion.img 
              whileHover={{
                 scale: [null, 1, 1.05],
@@ -40,7 +40,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" mx-auto flex flex-col md:flex-row-reverse justify-center align-middle text-center w-full">
+      <div className=" mx-auto flex flex-col md:flex-row-reverse xl:flex-row justify-center align-middle text-center w-full">
         
         <motion.div 
           initial={{ x: -100, opacity: 0 }}
@@ -58,7 +58,7 @@ const About = () => {
           initial={{ rotate:0 ,opacity: 0 }}
           animate={{ y: 0, opacity: 1, rotate: -5 }}
           transition={{ duration: 0.5, ease: "easeIn" }}
-          className="w-[60%] rounded-3xl overflow-hidden shadow-lg -rotate-[9deg] mb-36 md:mt-24 sm:w-[40%] md:w-[50%]">
+          className="w-[60%] rounded-3xl overflow-hidden shadow-lg -rotate-[9deg] mb-36 md:mt-24 sm:w-[40%] md:w-[50%] xl:w-[40%] xl:mt-0">
             <motion.img 
             whileHover={{
                 scale: [null, 1, 1.05],

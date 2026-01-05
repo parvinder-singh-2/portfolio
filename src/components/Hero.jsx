@@ -10,7 +10,7 @@ const Hero = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.5, ease: "easeIn" }}
         className="absolute top-[15%] z-20 font-[Arsenica] text-7xl text-[#000000] tracking-normal flex sm:flex-row
-                  flex-col sm:top-[20%] md:text-8xl md:top-[13%] lg:top-[15%]"
+                  flex-col sm:top-[20%] md:text-8xl md:top-[13%] lg:top-[15%] xl:top-[18%]"
       >
         <h2 className="">Parvinder</h2>
         <h2 className="">Singh</h2>
@@ -20,7 +20,7 @@ const Hero = () => {
         initial={{ rotate:0 ,opacity: 0 }}
         animate={{ y: 0, opacity: 1, rotate: -5 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
-        className="relative z-10 w-[80%] overflow-hidden rounded-2xl shadow-2xl bg-gray-300 mr-5 sm:w-[60%] lg:w-[40%]">
+        className="relative z-10 w-[80%] overflow-hidden rounded-2xl shadow-2xl bg-gray-300 mr-5 sm:w-[60%] lg:w-[40%] xl:w-[30%]">
         <motion.img 
           whileHover={{
                 scale: [null, 1, 1.05],
