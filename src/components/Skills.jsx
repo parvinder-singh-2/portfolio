@@ -21,7 +21,7 @@ const Skills = () => {
             SKILLS & <br /> EXPERTISE
           </h2>
           <div className="flex flex-col md:flex-row mx-auto justify-center align-middle items-center">
-          <div className="w-full mt-20 mb-10 flex justify-center align-middle items-center sm:w-[60%] md:w-[50%] lg:w-[40%]">
+          <div className="w-full mt-20 mb-10 flex justify-center align-middle items-center sm:w-[60%] md:w-[50%] lg:w-[40%] xl:w-[30%]">
             <motion.img 
               src={skillsImg}
                whileHover={{

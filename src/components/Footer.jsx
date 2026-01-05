@@ -24,7 +24,7 @@ const Footer = () => {
 
 
       <div className="relative flex justify-center mx-auto items-center my-15">
-        <div className="w-[50%] md:w-[80%] lg:w-[50%] rounded-[30px] overflow-hidden shadow-2xl rotate-[5deg] bg-gray-300">
+        <div className="w-[50%] md:w-[80%] lg:w-[50%] xl:w-[40%] rounded-[30px] overflow-hidden shadow-2xl rotate-[5deg] bg-gray-300">
           <motion.img 
             src={footerImg}
              whileHover={{

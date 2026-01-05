@@ -2,7 +2,7 @@ import React from 'react'
 
 const Statement = () => {
   return (
-    <div className="w-full py-36 max-h-screen bg-[#e8e2e2] flex flex-col items-center justify-center text-center text-[#1a1a1a]">
+    <div className="w-full py-36 min-h-screen bg-[#e8e2e2] flex flex-col items-center justify-center text-center text-[#1a1a1a]">
         <div className="">
             <h2 className="text-7xl font-ibm font-bold tracking-wider">
                 I WAS
